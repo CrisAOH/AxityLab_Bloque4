@@ -32,6 +32,16 @@
         <groupId>org.codehaus.mojo</groupId>
         <artifactId>exec-maven-plugin</artifactId>
         <version>3.6.3</version>
+        <executions>
+          <execution>
+            <goals>
+              <goal>java</goal>
+            </goals>
+          </execution>
+        </executions>
+        <configuration>
+          <mainClass>com.axity.dinosaurpark.Main</mainClass>
+        </configuration>
       </plugin>
       <plugin>
         <groupId>org.jacoco</groupId>
