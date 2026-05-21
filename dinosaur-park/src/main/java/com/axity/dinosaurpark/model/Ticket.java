@@ -1,5 +1,7 @@
 package com.axity.dinosaurpark.model;
 
+import com.axity.dinosaurpark.zone.ExperienceType;
+
 import java.time.LocalDateTime;
 
 public class Ticket {

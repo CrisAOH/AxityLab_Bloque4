@@ -1,4 +1,4 @@
-package com.axity.dinosaurpark.model;
+package com.axity.dinosaurpark.zone;
 
 public enum ExperienceType {
     BASIC(1, 3, "enclosure.basic.entryFee"),
