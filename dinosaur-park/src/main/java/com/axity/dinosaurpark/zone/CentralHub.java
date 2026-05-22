@@ -84,6 +84,7 @@ public class CentralHub implements ParkZone {
 
         if (random.nextDouble() < souvenirProbability) {
             tourist.spend(souvenirPrice);
+            // Persistencia
         }
 
         exit(tourist);
