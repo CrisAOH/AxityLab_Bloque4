@@ -67,4 +67,23 @@ public class Tourist {
 
         visitedZones.add(zone);
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+
+        if (!(obj instanceof Tourist)) {
+            return false;
+        }
+
+        Tourist touristObj = (Tourist)obj;
+        return this.id == touristObj.id;
+    }
+
+    @Override
+    public int hashCode() {
+        return this.id;
+    }
 }
